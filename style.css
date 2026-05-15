@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.navbar{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: white;
+     margin: 20px 50px;
+}
+.navbar h1{
+    font-size: 80px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 60px;
+    display: flex;
+    
+}
+.nav-links li{
+    display: inline-block;
+}
+.hero-section{
+    background-color: #eef2ff;
+    /* border: 1px; */
+    display: flex;
+    justify-content: space-between;
+    height: 380px;
+    
+
+}
+ 
+.detail h3{
+    margin-top: 50px;
+}
+.detail h1{
+    color: #2563eb;
+    font-size: 44px;
+    line-height: 1.4;
+}
+.detail .social{
+    display: flex;
+}
+.hero-section .detail img{
+    width: 20px;
+}
+.hero-section img{
+    margin-top: 47px;
+    margin-left: 400px;
+    margin-right: 60px;
+    width: 250px;
+    height: 300px;
+    /* object-fit: cover; */
+    border-radius: 390%;
+}
+.info {
+    display: flex;
+}
+.info h2{
+    color: black;
+}
+.about{
+    margin: 0 90px;
+    
+}
+.section{
+    margin-left: 120px;
+}
+.skills{
+    background-color: #eef2ff;
+    height: 170px;
+}
+.skills h2{
+    color: black;
+    margin: 25px 90px;
+    
+}
+.skills .html{
+    background-color: #2563eb;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin:  20px;
+    margin-left: 50px;
+    
+}
+.skills .css{
+    background-color: #2563eb;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    
+}
+.skills .git{
+    background-color: #2563eb;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 20px;
+}
+.skills .python {
+    background-color: #2563eb;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 20px;
+}
+.projects h2{
+    color: black;
+    margin: 0 90px;
+}
+.card-holder{
+    display: flex;
+    /* margin: 0 70px; */
+    padding: 0 70px;
+    /* justify-content: space-between; */
+    gap: 50px;
+}
+.card-holder img{
+    width: 320px;
+    justify-content: center;
+}
+.card-holder h4{
+    color: #2563eb;
+}
+.card-holder p{
+    margin-top: 5px;
+    margin-bottom: 8px;
+    
+}
+.card-holder a{
+    text-decoration: none;
+    color: #2563eb;
+}
+.card-one{
+    background-color: whitesmoke;
+    /* margin-left: 50px; */
+    width: 470px;
+    text-align: center;
+    /* margin-right: 50px; */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.card-one img{
+    width: 350px;
+    height: 245px;
+}
+.card-two{
+    background-color: whitesmoke;
+    /* margin-left: 50px; */
+    text-align: center;
+    width: 350px;
+    /* margin-right: 50px; */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.card-three{
+    background-color: whitesmoke;
+    /* margin-left: 50px; */
+    text-align: center;
+    width: 350px;
+    /* margin-right: 50px; */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.card-three img{
+    height: 245px;
+}
+.card-two .thought{
+    margin-right: 350px;
+    width: 350px;
+    height: 245px;
+}
+.footer{
+    display: flex;
+    background-color: #eef2ff;
+    gap: 50px;
+    padding: 10px;
+    text-align: center;
+}
+.footer img{
+    color: #eef2ff;
+    width: 30px;
+    margin-top: 5px;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+.connect h2{
+    margin-top: 7px;
+    margin: 0 90px;
+    
+}
+
+.footer a{
+    margin-top: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+    
+    
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.footer2{
+    margin-top: 15px;
+}
+.footer2 p{
+    text-align: center;
+}
+
+
+
