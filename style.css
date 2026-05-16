@@ -2,16 +2,24 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    overflow-x: hidden;
 }
 .navbar{
      display: flex;
-     align-items: center;
      justify-content: space-between;
      background-color: white;
-     margin: 20px 50px;
+     margin-top: 20px;
+     margin-bottom: 20px;
 }
-.navbar h1{
-    font-size: 80px;
+.ibrahim h3{
+    padding-left: 20px;
+}
+.nav-links{
+    display: flex;
+}
+.nav-links ul{
+    text-decoration: none;
+    gap: 2px;
 }
 .nav-links a{
     text-decoration: none;
@@ -24,6 +32,7 @@
 }
 .nav-links li{
     display: inline-block;
+    
 }
 .hero-section{
     background-color: #eef2ff;
@@ -43,13 +52,7 @@
     font-size: 44px;
     line-height: 1.4;
 }
-.detail .social{
-    display: flex;
-}
-.hero-section .detail img{
-    width: 20px;
-}
-.hero-section img{
+#owner img{
     margin-top: 47px;
     margin-left: 400px;
     margin-right: 60px;
@@ -149,7 +152,7 @@
 .card-one{
     background-color: whitesmoke;
     /* margin-left: 50px; */
-    width: 470px;
+    width: 350px;
     text-align: center;
     /* margin-right: 50px; */
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
@@ -166,6 +169,10 @@
     /* margin-right: 50px; */
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
+.card-two img{
+    width: 100%;
+    height: 245px;
+}
 .card-three{
     background-color: whitesmoke;
     /* margin-left: 50px; */
@@ -176,47 +183,36 @@
 }
 .card-three img{
     height: 245px;
+    width: 100%;
 }
-.card-two .thought{
+/* .card-two .thought{
     margin-right: 350px;
     width: 350px;
     height: 245px;
-}
+} */
 .footer{
     display: flex;
     background-color: #eef2ff;
-    gap: 50px;
+    gap: 70px;
     padding: 10px;
     text-align: center;
 }
-.footer img{
-    color: #eef2ff;
+.mail img{
     width: 30px;
-    margin-top: 5px;
+    height: 26px;
 }
-.footer a {
-    text-decoration: none;
-    color: black;
+.instagram img{
+    width: 30px;
 }
+.linkedin img{
+    width: 30px;
+}
+
 .connect h2{
     margin-top: 7px;
     margin: 0 90px;
+    text-align: center;
     
-}
-
-.footer a{
-    margin-top: 40px;
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    
-    
-    
-}
-.social{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
 }
 .footer2{
     margin-top: 15px;
@@ -225,5 +221,187 @@
     text-align: center;
 }
 
+/* RESPONSIVENESS */
+@media (min-width: 0px) and (max-width: 480px) {
+    .navbar{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: white;
+     margin: 0px 10px;
+}
+.navbar h3{
+    font-size: 10px;
+}
+.nav-links{
+    display: flex;
+}
+.nav-links ul{
+    text-decoration: none;
+    gap: 2px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #2563eb;;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 0px 0px;
+    display: flex;
+}
+.nav-links li{
+    display: inline-block;
+    gap: 20px;
+}
 
 
+
+.hero-section{
+    background-color:#eef2ff;
+    /* border: 1px; */
+    display: flex;
+    gap: 10px;
+    height: 310px;
+}
+#owner img{
+    margin-top: 87px;
+    margin-left: -0px;
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 390%;
+}
+.detail h3{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.detail h1{
+    color: #2563eb;
+    font-size:20px;
+    width: 200px;
+    /* line-height: 1.4; */
+    margin-left: 10px;
+}
+.detail h2{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.detail p{
+    margin-left: 10px;
+    width: 170px;
+}
+.about{
+    margin-left: 40px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+}
+.info p{
+    width: 100%;
+}
+.section{
+    margin-left: 40px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.skills{
+    background-color: #eef2ff;
+    height: 170px;
+    /* display: flex; */
+}
+.skills section{
+    margin-top: 50px;
+}
+.skills h2{
+    color: black;
+    margin: 25px 40px;
+    
+}
+.skills .html{
+    background-color: #2563eb;
+    color: white;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 0px;
+    margin-left: 20px;
+    
+}
+.skills .css{
+    background-color: #2563eb;
+    color: white;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px;
+    
+}
+.skills .git{
+    background-color: #2563eb;
+    color: white;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 20px;
+}
+.skills .python {
+    background-color: #2563eb;
+    color: white;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 0px;
+}
+
+.projects h2{
+    color: black;
+    margin: 0 40px;
+}
+.card-holder{
+    display: flex;
+    /* margin: 0 70px; */
+    padding: 0 0px;
+    /* justify-content: space-between; */
+    gap: 50px;
+    flex-direction: column;
+}
+.card-one, .card-two, .card-three{
+    width: 100%;
+}
+.footer{
+    display: flex;
+    background-color: #eef2ff;
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.mail img{
+    width: 30px;
+    height: 26px;
+}
+.instagram img{
+    width: 30px;
+}
+.linkedin img{
+    width: 30px;
+}
+
+.connect h2{
+    margin: 7px 40px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+
+    
+}
